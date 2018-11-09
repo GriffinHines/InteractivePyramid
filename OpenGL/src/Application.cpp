@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Application.cpp
 //  OpenGL
 //
 //  Created by Griffin Hines on 8/10/18.
@@ -8,8 +8,7 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main(){
+    std::cout << "hello" << std::endl;
+    std::cin.get();
 }
